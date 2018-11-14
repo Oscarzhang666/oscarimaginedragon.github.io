@@ -5,8 +5,59 @@
         <title>CSS Basics</title>
     </head>
     <body>
+     <h1>Imagine Dragon</h1>
+     <html>
+<head>
+<title>
+Login page
+</title>
+</head>
+ <style>
+ body{
+            background-color:black
+            }
+  h1{
+            color: white;
+            font-family:monospace;
+            }
+   h2{
+            color:white;
+            font-family:monospace;
+            }
+            p{
+            color:white;
+            font-famil:fantasy;
+            }
+ </style>
+<body>
+ 
 
-    <h1>Imagine Dragon</h1>
+<h1 style="font-family:monospace;text-align="center";font-size:20pt;
+color:white>
+Simple Login Page
+</h1>
+<form name="login">
+Username<input type="text" name="userid"/>
+Password<input type="password" name="pswrd"/>
+<input type="button" onclick="check(this.form)" value="Login"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "user" && form.pswrd.value == "password")
+  {
+    window.open('https://sukixw.github.io/detail.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+</body>
+</html>
     
     <img src="https://www.billboard.com/files/styles/article_main_image/public/media/Imagine-Dragons-press-photo-by-Eliot-Lee-Hazel-2018-billboard-1548.jpg"> 
     
@@ -31,9 +82,7 @@
 <p>Smoke + Mirrors is the second studio album by American rock band Imagine Dragons. The album was recorded during 2014 at the band's home studio in Las Vegas, Nevada. Self-produced by members of the band along with English hip-hop producer Alexander Grant, known by his moniker Alex da Kid, the album was released by Interscope Records and Grant's KIDinaKORNER label on February 17, 2015, in the United States.</p><br>
 <p><img src="https://upload.wikimedia.org/wikipedia/en/3/3f/Night_Visions_Album_Cover.jpeg"</p><br>
 <p>Night Visions is the debut studio album by American rock band Imagine Dragons. It was released on September 4, 2012, through Kidinakorner and Interscope Records. The extended track was released on February 12, 2013, adding three more songs and the UK release of the album was on March 26, 2013. Recorded between 2010 and 2012, the album was primarily produced by the band themselves, as well as English hip-hop producer Alex da Kid and Brandon Darner from the American indie rock group The Envy Corps. It was mastered by Joe LaPorta. According to frontman Dan Reynolds, the album took three years to finish, with six of the album's tracks being previously released on multiple EPs. Musically, Night Visions exhibits influences of folk, hip hop and pop.</p>
-
-
-    <h3>Group Members</h3>
+     <h3>Group Members</h3>
      <p id="groupmember">
     </p>
     <ul>
